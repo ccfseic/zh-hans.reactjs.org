@@ -26,7 +26,7 @@ next: state-and-lifecycle.html
 
 ```js
 function Welcome(props) {
-  return <h1>Hello, {props.name}</h1>;
+  return <h1>Hello , {props.name}</h1>;
 }
 ```
 
@@ -57,7 +57,7 @@ const element = <div />;
 不过，React 元素也可以是用户自定义的组件：
 
 ```js
-const element = <Welcome name="Sara" />;
+const element = <Welcome name="ccfqian" />;
 ```
 
 当 React 元素为用户自定义组件时，它会将 JSX 所接收的属性（attributes）转换为单个对象传递给组件，这个对象被称之为 “props”。
